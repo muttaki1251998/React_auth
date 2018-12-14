@@ -1,7 +1,7 @@
 $font-family:   'Ubuntu', sans-serif;
 $font-size:     14px;
 
-$color-primary: #ABA194;
+$color-primary: rgb(29, 15, 224);
 
 * {
     margin: 0;
@@ -83,6 +83,36 @@ body {
     &:hover {
         background: darken($color-primary, 5%);
     }
+}
+.logout{    
+    display: block;
+    width: 7%;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: $font-family;
+    -webkit-appearance: none;
+    outline: 0;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background: rgb(180, 7, 7);
+    transition: 0.3s;
+    margin-left: 47%;
+    &:hover {
+        background: darken(rgb(211, 4, 4), 5%);
+    }
+}
+.headline{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+}
+.google{
+    text-align: center;
+    font-weight: lighter;
+}
+.info{
+    text-align: center;
 }
 
 @keyframes NO {
